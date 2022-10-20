@@ -80,6 +80,7 @@ main #side-column{
     margin: 1em 0;
     justify-content: right;
     align-items: center;
+    margin-right: 0.5em;
     
 }
 
@@ -87,20 +88,18 @@ main #side-column{
     display: inline-block;
 }
 
-#telephone-container #phone-icon{
-
-    margin: 0em 0.5em; 
-    display: inline-block; 
-    background-image: url("../static/phoneicon.png"); 
-    width: 20px; 
-    height: 20px; 
+#telephone-container #phone-icon-container{
+    margin-left: 1em;
 }
+
+
 
 #email-container {
     display: flex;
     margin: 1em 0;
     justify-content: right;
     align-items: center;
+    margin-right: 0.5em;
 
 }
 
@@ -108,36 +107,29 @@ main #side-column{
     display: inline-block;
 }
 
-#email-container #email-icon{
-
-    display: inline-block;
-    margin: 0em 0.5em;
-    display: inline-block;
-    background-image: url("../static/phoneicon.png");
-    width: 20px;
-    height: 20px; 
+#email-container #email-icon-container{
+    margin-left: 1em;
 }
+
+
 
 #address-container {
     display:flex;
     margin: 1em 0;
     justify-content: right;
     align-items: center;
+    margin-right: 0.5em;
 }
 
 #address-container #address{
     display: inline-block;
 }
 
-#address-container #address-icon{
-
-    display: inline-block;
-    margin: 0em 0.5em;
-    display: inline-block;
-    background-image: url("../static/phoneicon.png");
-    width: 20px;
-    height: 20px; 
+#address-container #address-icon-container{
+    margin-left: 1em;
 }
+
+
 
 #education-container{
     margin-top: 4em;
