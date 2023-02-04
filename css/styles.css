@@ -265,3 +265,47 @@ footer{
         box-shadow: none !important;
     }
 }
+
+@media (max-width: 600px) {
+
+    main #side-column{
+        border-right: solid 1px black; 
+        min-width: 40%;
+        font-family: "mukta-vaani";
+    }
+
+    
+
+    header #name-container #name{
+        font-size: 1.5em;
+        text-align: center;
+        letter-spacing: 0.05em;
+        font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+        color: #14324E;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    header #name-container #title{
+        text-transform: uppercase;
+        font-family: "aragon-sans";
+        letter-spacing: 0.2em;
+        text-align: center;
+    }
+
+    header #logo_container{
+    
+        display:flex;
+        max-width: 35%;
+        justify-content: right;
+        padding-left: 1em;
+    }
+    
+    header #logo_container #logo{
+        padding-left: 1em;
+        margin-left: 10em;
+        
+    }
+
+    
+}
