@@ -277,13 +277,14 @@ footer{
     
 
     header #name-container #name{
-        font-size: 1.5em;
+        font-size: 2em;
         text-align: center;
         letter-spacing: 0.05em;
         font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
         color: #14324E;
         font-style: normal;
         font-weight: 400;
+        white-space: nowrap;
     }
 
     header #name-container #title{
@@ -298,14 +299,10 @@ footer{
         display:flex;
         max-width: 35%;
         justify-content: right;
-        padding-left: 1em;
+        padding-right: 0em;
     }
     
-    header #logo_container #logo{
-        padding-left: 1em;
-        margin-left: 10em;
-        
-    }
+
 
     
 }
