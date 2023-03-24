@@ -149,6 +149,7 @@ main #side-column{
 #education-container #education-content{
     text-align: right;
     padding-right: 1em;
+    margin-bottom: 1em;
 }
 
 #licenses-container{
